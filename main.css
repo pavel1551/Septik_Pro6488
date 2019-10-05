@@ -1,0 +1,407 @@
+BODY
+
+/*a { 
+    text-decoration: none; (Отменяем подчеркивание у ссылки убери слеш)
+   } 
+*/
+
+{ 
+
+margin:0; padding:0; color: black;
+background: url(image/123.jpg);
+background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position:center;
+	word-wrap: break-word;
+	clear: fixed;
+}
+.container 
+{
+width:1240px; /* Общая ширина контейнера */
+margin: 10px auto; /* Отступ от края браузера 10 пикселей */
+margin-top:10px;
+background: url(image/proz.png); /* задаем прозрачный фон картинки */
+
+background-color: rgba(0, 160, 0, 0.3); /* Цвет фона и значение прозрачности */
+}
+.zagolovok
+{
+ 	height:84px;
+width:100%;
+background: url(image/proz.png); 
+background-color: rgba(0, 160, 0, 0.3); /* Цвет фона и значение прозрачности*/
+text-align:center;
+margin-top:-50px;
+}
+.menu-nav
+{ 
+clear:left; /* Прерывание обтекания */
+/*height:50px; */
+}
+.novosti
+{ 
+float: left; /* Плавающий блок */
+padding: 15px; 
+width: 200px; 
+
+
+}
+.subnovosti
+{
+	margin-top: 100px; /* Отступ сверху */
+height:275px;
+background: url(image/proz.png); 
+background-color: rgba(0, 255, 255, 0.5);
+text-align:center;
+width:190px;
+padding:5px 0 5 0;
+background-color: rgba(0, 160, 0, 0.7); /* Цвет фона и значение прозрачности */
+}
+
+
+.subnovosti_1
+{
+height:275px;
+background: url(image/proz.png); 
+background-color: rgba(0, 255, 255, 0.5);
+text-align:center;
+width:190px;
+padding:5px 0 5 0;
+margin-top: 20px;
+background-color: rgba(0, 160, 0, 0.7); /* Цвет фона и значение прозрачности */
+}
+.subzag
+{
+
+width:190px;
+background:rgb(0,0,255);
+text-align:center;
+
+}
+.subzag11
+{
+width:190px;
+background:rgb(0,0,255);
+text-align:center;
+margin-top: 250px; /* Отступ сверху */
+}
+.sub11
+{
+width:160px;
+padding:5px;
+margin-left:9px;
+}
+
+
+
+.sub22
+{
+width:160px;
+padding:10px;
+margin-left:5px;
+}
+
+.sub33
+{
+width:160px;
+
+padding:5px;
+margin-left:10px;
+}
+.sub1
+{
+width:160px;
+
+padding:5px;
+margin-left:10px;
+}
+
+.sub2
+{
+width:160px;
+
+padding:5px;
+margin-left:10px;
+}
+
+.sub3
+{
+width:160px;
+
+padding:5px;
+margin-left:10px;
+}
+
+img
+{
+padding:5px;
+}
+.soderjanie
+{ 
+margin-top: 10px; /* Отступ сверху */
+float: left; /* Плавающий блок */
+padding: 30px;
+padding-right: 0;
+background-color: rgba(0, 180, 0, 0.35); /* Цвет фона и значение прозрачности */
+width: 970px;
+margin-right: 10px; /* Отступ справа */
+margin-bottom: 10px; /* Отступ снизу */  
+
+}
+.menu
+{ 
+clear:left; /* Прерывание обтекания */
+
+height:150px; 
+}
+.podval
+{ 
+
+float: left; /* Плавающий блок */
+padding: 10px;
+padding-right: 0;
+
+width: 1230px;
+
+margin-top:5px;
+background: url(image/proz.png); /* задаем прозрачный фон картинки */
+background-color: rgba(169, 169, 169, 0.8);
+text-align:center;
+height:15px;
+margin: 10px auto;
+}
+
+.text_1zag
+{
+margin: 1em 0 0.5em 0;
+    color: #000000;
+    font-weight: normal;
+    font:italic 50px bold;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: cursive; 
+
+    text-shadow: 0 5px white, 0 3px #777;
+
+}
+
+
+
+
+.text_abz
+{
+margin: 1em 0 0.5em 0;
+    color: #000000;
+    font-weight: normal;
+    font-family: 'Ultra', sans-serif;  
+    font-size: 70px;
+    line-height: 70px;
+    
+    text-shadow: 0 5px white, 0 3px #777;
+
+}
+/*Начинается меню */
+
+.navigation {
+  list-style: none;
+  padding: 1;
+  margin: 0;
+  background: rgb(50,50,50);
+  border-top: solid 3px #fff;
+  border-bottom: solid 3px #fff;
+
+  /*
+  box-shadow:  0px -2px 3px -1px rgba(0, 0, 0, 1);
+  */
+}
+
+.navigation li {
+  float: left;
+}
+
+.navigation li:hover {
+  background: #222;
+}
+
+.navigation li:first-child {
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 0 0 5px;
+}
+
+.navigation li a {
+  display: block;
+  padding: 0 20px;
+  text-decoration: none;
+  line-height: 40px;
+  color: #7CFC00;
+}
+
+.navigation ul {
+  display: none;
+  position: absolute;
+  list-style: none;
+  margin-left: -3px;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+.navigation ul li {
+  float: none; 
+}
+
+.navigation li:hover > ul {
+  display: block;
+  background: #222;
+  border: solid 3px #fff;
+  border-top: 0;
+  
+  -webkit-border-radius: 0 0 8px 8px;
+  border-radius: 0 0 8px 8px;
+  
+  -webkit-box-shadow:  0px 3px 3px 0px rgba(0, 0, 0, 0.25);
+  box-shadow:  0px 3px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.navigation li:hover > ul li:hover {
+  -webkit-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+.navigation li li a:hover {
+  background: #000;
+}
+
+.navigation ul li:last-child a,
+.navigation ul li:last-child a:hover {
+  -webkit-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+.clear {
+  clear: both;
+  
+}
+
+.zgs
+ {
+ width:900px;
+background:rgb(0,0,255);
+text-align:center;
+}
+
+.zgs11
+ {
+ width:900px;
+background:rgb(0,0,255);
+text-align:center;
+}
+
+.zgs1111
+ {
+ width:900px;
+background:#4B0082;
+text-align:center;
+}
+
+
+.zgs2
+ {
+
+margin-top: 50px;
+text-align:center;
+}
+
+
+.zgs3
+ {
+
+margin-top: 80px;
+text-align:center;
+}
+
+
+.ttt1
+{
+margin-top: 10px; /* Отступ сверху */
+width:160px;
+text-align:center;
+}
+.ttt2
+{
+margin-top: 10px; /* Отступ сверху */
+width:160px;
+text-align:center;
+}
+.ttt3
+{
+margin-top: 10px; /* Отступ сверху */
+width:160px;
+text-align:center;
+}
+
+
+.aaa1
+{
+	
+    margin-left: 10px; /* Отступ слева */
+width:1000px;
+}
+
+.aaa2
+{
+	margin-top: 50px; /* Отступ сверху */
+    margin-left: 10px; /* Отступ слева */
+width:1000px;
+}
+
+.sep
+{
+	margin-top: 10px; /* Отступ сверху */
+	margin-left: 7px; /* Отступ слева */
+height:355px; /* продлить вниз */
+background: url(image/proz.png); 
+background-color: rgba(0, 255, 255, 0.5);
+text-align:center;
+width:265px; /* продлить в право */
+padding:5px 0 5 0;
+}
+
+
+.gl111
+{
+    text-align:  center;
+ }
+
+div.block{
+        display:inline-block;
+        padding:1px;
+        margin:1px;
+		
+		margin-left: 50px; /* Отступ слева */
+    }
+    div.block:hover{
+        position: relative;
+    opacity: 1;
+    transform: scale(1.1);
+    }
+	
+	
+.sss
+{
+  
+margin-left: 45px; /* Отступ слева */
+margin-right: 10px; /* Отступ справа */
+}
+
+.d9
+a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   } 
+   
+.t1
+
+div {
+
+border-radius:90px; /* Уголки */
+}
